@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+<html>
+	<head>
+	<meta charset='UTF-8'>
+	</head>
+	
+<body>
+<center>
+<div id= 'head'>
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr>
+	<td><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRUGeN_-Pgh0aaVVxyDMrGNzMiuUwfQVc8LMw&usqp=CAU' width='900' height='400'></td> 
+	</tr>
 
-You can use the [editor on GitHub](https://github.com/swy641205/snowfox-s-website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+	<tr>
+	<td><h1 style="text-align:center">「Snow Fox's website」</h1></td>
+	</tr>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</table>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+</div>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+<div id= 'nav1'>
+<table border="0" cellspacing="0" cellpadding="1" bgcolor='#993333'>
 
-- Bulleted
-- List
+	<tr>
+	<td align='center' bgcolor='#ffffff'>
+		<a href='inde.htm'>作品集</a> ＞ 
+		<a href='OUO.htm'>電繪作品</a> ＞ Photoshop
+	</td>
+	</tr>
 
-1. Numbered
-2. List
+</table>
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+</center>
+</body>
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/swy641205/snowfox-s-website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
