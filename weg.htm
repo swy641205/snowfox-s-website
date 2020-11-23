@@ -24,21 +24,36 @@
 			justify-content: center;
 			align-items:center;
 		}
+		.cancel{
+			position: fixed;
+			top: 0;
+			right: 0;
+			z-index: 10;
+			display: flex;
+			justify-content: center;
+			align-items:center;
+		}
 	</style>
 </head>
 <body>
 	<p>產品介紹</p>
 	<h1>智慧型客語機器人</h1>
-	<div class='zenbo'>
+	<div class='zenbo'> 
 		<img src='1.png' height="500">
 	</div>
+	<div class='cancel'>
+		<img src='cancel.png' style="width:48px;height:48px;">
+	</div>
+	
 	<script type="text/javascript">
 		$('p').click(function(){
 			$('.zenbo').slideToggle();
+			$('.cancel').slideToggle();
 		});
-		$('img').click(function(){
+		$('.cancel').click(function(){
 			$('.zenbo').slideToggle();			
-		});
+			$('.cancel').slideToggle();
+		});	
 	</script>
 </body>
 </html>
