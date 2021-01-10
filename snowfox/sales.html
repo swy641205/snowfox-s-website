@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<html lang="zh-Hant-TW">
+	<title>特賣商品</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.fullscreen.js"></script>
+	<style type="text/css">
+		p{
+			color:orange;
+			margin:5px;
+		}
+		.s1{
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 10;
+			background: rgba(150,0,4,0.5);
+			display: flex;
+			display:none;
+		}
+		.s2{
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 10;
+			background: rgba(150,0,4,0.5);
+			display: flex;
+			display:none;
+		}
+		.s3{
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 10;
+			background: rgba(150,0,4,0.5);
+			display: flex;
+			display:none;
+		}
+		.cancel{
+			position: fixed;
+			top: 0;
+			right: 0;
+			z-index: 10;
+			display: flex;
+			justify-content: center;
+			align-items:center;
+			display:none;
+		}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  top: 70%;
+  left: 50%;
+  margin-left: -60px; 
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+	</style>
+</head>
+<body>
+	<center>
+		<p><a href="https://snowfoxs.net" target="_blank"><img src="https://snowfoxs.net/wp-content/uploads/2020/12/Hina-_-99designs.png" width="70" height="70"></a></p><h2><a href="https://snowfoxs.net" target="_blank" >鈴霖陶藝館</a></h2>
+		<br>		
+	<h3>對外販售的藝術品</h3>
+	<table>
+		<tr>
+			<td><div class="ts1"><div class="tooltip">
+				<img src='https://snowfoxs.net/wp-content/uploads/2020/12/1551089485738-300x300.jpg'>
+				<span class="tooltiptext">點擊圖片來放大檢視</span>
+			</div></div>
+			</td>
+			<td><div class="ts2"><div class="tooltip">
+				<img src='https://snowfoxs.net/wp-content/uploads/2020/12/1551089492120-300x300.jpg'>
+				<span class="tooltiptext">點擊圖片來放大檢視</span>
+			</div></div>
+			</td>
+			<td><div class="ts3"><div class="tooltip">
+				<img src='https://snowfoxs.net/wp-content/uploads/2020/12/333-300x300.jpg'>
+				<span class="tooltiptext">點擊圖片來放大檢視</span>
+			</div></div>
+			</td>
+		</tr>
+		<tr>
+			<th><a href="https://snowfoxs.net/?product=%e8%80%81%e5%b2%a9%e6%b3%a5%e9%9c%9c%e6%9f%93%e8%90%bd%e9%87%91%e6%9d%af%e7%b5%84" target="_blank">岩泥霜染落金杯組</a></th>
+			<th><a href="https://snowfoxs.net/?product=%e8%8c%b6%e5%85%b7%ef%bc%8c%e6%b0%a3%e9%9f%bb%e7%94%9f%e5%8b%95" target="_blank">茶具，氣韻生動</a></th>
+			<th><a href="https://snowfoxs.net/?product=%e9%a3%9b%e5%a4%a9%e5%bd%a9%e8%99%b9%e5%b0%8f%e9%a6%ac" target="_blank">飛天彩虹小馬</a></th>
+		</tr>
+		<tr>
+			<th><p style="color:#0033cc">N.T. $6999</th>
+			<th><p style="color:#0033cc">N.T. $4999</th>
+			<th><p style="color:#0033cc">N.T. $8999</th>
+		</tr>		
+	</table>
+	<br>
+	<p>(點擊圖片來放大檢視)
+	<pre>
+		
+
+	</pre>
+	<h3>全螢幕</h3>
+
+<script type="text/javascript">
+$(function() {
+    $('.open').click(function() {
+        $('body').fullscreen();
+        return false;
+    });
+    $('.close').click(function() {
+        $.fullscreen.exit();
+        return false;
+    });
+});
+</script>
+
+<p>
+<a href="#" class="open">Open fullscreen</a>
+<a href="#" class="close">Exit fullscreen</a>
+</p>
+<img src='https://snowfoxs.net/wp-content/uploads/2020/12/DSC_1829.jpg' width="400">
+
+
+	<h5><a href="https://snowfoxs.net" target="_blank" >↖ 返回首頁</a></h5>
+
+	<div class='s1' style="display:none">
+		<img src='https://snowfoxs.net/wp-content/uploads/2020/12/111-1.jpg'>
+	</div>
+	<div class='s2' style="display:none"> 
+		<img src='https://snowfoxs.net/wp-content/uploads/2020/12/222.jpg'>
+	</div>
+	<div class='s3' style="display:none"> 
+		<img src='https://snowfoxs.net/wp-content/uploads/2020/12/333.jpg'>
+	</div>	
+	<div class='cancel'>
+		<img src='cancel.png' style="width:48px;height:48px;">
+	</div>
+	
+	<script type="text/javascript">
+		$('.cancel').click(function(){
+			$('.s1').hide();
+			$('.s2').hide();
+			$('.s3').hide();
+			$('.cancel').hide();
+		});
+		$('.ts1').click(function(){
+			$('.s1').show();			
+			$('.cancel').show();
+		});	
+		$('.ts2').click(function(){
+			$('.s2').slideToggle();			
+			$('.cancel').slideToggle();
+		});	
+		$('.ts3').click(function(){
+			$('.s3').slideToggle();			
+			$('.cancel').slideToggle();
+		});	
+	</script>
+	</center>
+</body>
+</html>
